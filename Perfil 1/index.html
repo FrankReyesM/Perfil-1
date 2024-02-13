@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 <body>
-    
+
+    <header class="bg-primary text-white text-center py-4">
+        <h1 class="display-7">Emprendedores y Empresas de Software</h1>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Pagina Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empresarios.html">Emprendedores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empresasSV.html">Empresas SV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="empresasINTER.html">Empresas Internacionales</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+            
+
+    </header>
+    <br>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6">
+    <p class="lead text-justify">Los emprendedores en el campo del software son personas con visión y creatividad, que buscan oportunidades en el mercado para desarrollar y comercializar soluciones informáticas novedosas. Estos individuos suelen poseer habilidades técnicas sólidas y una mentalidad empresarial orientada hacia la adaptación rápida y el cambio.
+
+        En cuanto a las empresas de software, se dedican al diseño, desarrollo, implementación y mantenimiento de programas informáticos y aplicaciones. Estas empresas pueden variar en tamaño y enfoque, desde startups especializadas en productos específicos hasta grandes corporaciones que ofrecen una amplia gama de soluciones para diversas industrias.
+        
+        En un entorno digital en constante evolución, los emprendedores y las empresas de software desempeñan un papel esencial en la innovación tecnológica, impulsando el progreso y transformando la manera en que las personas interactúan con la tecnología en su vida diaria. La agilidad, la capacidad de adaptación y la creatividad son características fundamentales en este sector altamente dinámico y competitivo. Por ende, se reunio informacion sobre empresarios y empresas dedicados a este rubro.</p>
+    </div>
+    <div class="col-md-6"> <img src="https://images.ctfassets.net/63bmaubptoky/8e6EHyyhZoA2rEb_gcW_Wqp1UYa-QFOfol6A_hLTDo4/d07539f9788941b43e301c741bc144ce/what-is-software-CA-Capterra-Header.png" alt="Imagen al lado del párrafo" class="img-fluid">
+        <img src="data:image/png;base64,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" alt="Imagen al lado del párrafo" class="img-fluid" width="1920">
+    </div>
+</div>
+
+<footer class="footer mt-4 bg-dark text-white text-center py-2 fixed-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-left">
+                Instituto Tecnico Ricaldone
+            </div>
+            <div class="col-md-6 text-right">
+                Franklin Reyes
+            </div>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
